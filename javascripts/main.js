@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.input-multiple .hidden-autocomplete').typeahead({
+    $('.input-multiple .hidden-autocomplete').stypeahead({
         menu: '<ul class="dropdown-menu select-tag"></ul>',
         source: ["butter", "sugar", "lemon"],
         updater: function(tag) {
